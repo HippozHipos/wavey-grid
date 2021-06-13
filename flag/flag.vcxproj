@@ -24,6 +24,7 @@
     <ProjectGuid>{0ee1d437-8c4b-44f2-acc6-29bcb347a769}</ProjectGuid>
     <RootNamespace>flag</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>wavey_grid</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

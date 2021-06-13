@@ -97,13 +97,13 @@ public:
 		//Create a sin wave by scrolling horizontally 
 		//through each point and calculating its y value.
 		//y is calculated based on z.
-	    for (size_t x = 0; x < detailLevel; x++)
+		for (size_t x = 0; x < detailLevel; x++)
 		{
 			float z = 2.0f;
 			for (size_t y = 0; y < detailLevel; y++)
 			{
 				float _y = z / 2.0f * 2.0f * 3.14159f * frequency;
-				grid.points[y * detailLevel + x].get()->y += 
+				grid.points[y * detailLevel + x].get()->y +=
 					amplitude * std::sin(_y + t);
 				z -= 0.05f;
 			}
@@ -129,7 +129,7 @@ public:
 		{
 			for (auto& neighbour : point.get()->neighbours)
 				DrawLine((int)point.get()->x, (int)point.get()->y,
-					(int)neighbour->x, (int)neighbour->y, 
+					(int)neighbour->x, (int)neighbour->y,
 					olc::BLACK);
 		}
 
