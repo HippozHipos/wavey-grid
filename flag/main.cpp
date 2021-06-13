@@ -1,6 +1,6 @@
 #define OLC_PGE_APPLICATION
+//https ://github.com/OneLoneCoder/olcPixelGameEngine/blob/master/olcPixelGameEngine.h
 #include "pixelGameEngine.h"
-#include <ctime>
 
 struct Point
 {
